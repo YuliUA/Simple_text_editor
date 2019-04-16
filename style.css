@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#f3 {
+	height: 300px;
+	justify-content: space-between;
+	position: relative;
+}
+
+#f5 {
+	display: block;
+}
+
+#f1 p {
+	padding: 5px;
+}
+
+#colorPalette {
+	width: 200px;
+	height: 200px;
+	border: 1px solid lightgrey;
+	box-shadow: 0 0 2px lightgrey;
+	position: absolute;
+	right: 50px;
+	top: 50px;
+}
+
+#colorPalette td {
+	width: 30%;
+}
+
+.wraper {
+	width: 90%;
+	background-color: ghostwhite;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	box-shadow: 0 0 2px lightgrey;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-family: sans-serif;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+form[name=f2] {
+	display: flex;
+	justify-content: center;
+}
+
+form[name=f4] p {
+	font-size: 14px;
+	font-weight: 600;
+	margin: 5px 0;
+}
+
+form[name=f4] input[type=button] {
+	border: none;
+	background-color: gray;
+	color: snow;
+}
+
+input[type=button] {
+	margin: 2px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+input[name=edit] {
+	background-color: gold;
+	border-color: gold;
+}
+
+input[name=edit]:active {
+	background-color: goldenrod;
+	box-shadow: 0 0 4px gold;
+}
+
+input[name=style] {
+	background-color: dodgerblue;
+	border-color: dodgerblue;
+	color: snow;
+}
+
+input[name=style]:active {
+	background-color: mediumblue;
+	box-shadow: 0 0 4px dodgerblue;
+}
+
+input[name=addButton] {
+	color: snow;
+	background-color: red;
+	border-color: red;
+}
+
+input[name=addButton]:active {
+	background-color: indianred;
+	box-shadow: 0 0 4px red;
+}
+
+input[name=saveButton] {
+	background-color: green;
+	border-color: green;
+	color: snow;
+}
+
+input[name=saveButton]:active {
+	background-color: darkgreen;
+	box-shadow: 0 0 4px green;
+}
+
+textarea {
+	width: 100%;
+	font-size: 14px;
+	padding: 10px;
+}
